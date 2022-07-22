@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+    text-align: center;
+}
+h1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    color: brown;
+    font-size: 50px;
+    background: #cfe639
+}
+#contest-menu{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-self:center;
+    color: #f1e46a;
+    BACKGROUND: #6c608b;
+    line-height: 200%;
+    font-size: 20px;
+
+}
+.btn{
+    background: cyan;
+    border: 1pt solid black;
+    width: 10px;
+    border-radius: 3px;
+    transition: 0.1s all ease;
+    background-image: url('hey.webp');
+}
+th{
+    padding: 20px;
+    color: #ffeb3b;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 43px;
+}
